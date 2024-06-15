@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:layout_width="438dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Lampe"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/flashlightStatusText"
+        style="@style/CustomTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/beth_ellen"
+        android:text="La lampe s'éteint" />
+
+    <ImageButton
+        android:id="@+id/flashlightButton"
+        android:layout_width="302dp"
+        android:layout_height="465dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:elevation="16dp"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/torche" />
+</LinearLayout>
